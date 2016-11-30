@@ -10,3 +10,13 @@ services:
     extends:
       file: common.yml
       service: redis
+
+  redis_second:
+    extends:
+      file: common.yml
+      service: redis
+
+  redis_third:
+    extends:
+      file: common.yml
+      service: redis
